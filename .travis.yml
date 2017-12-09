@@ -1,23 +1,20 @@
-sudo: false
 language: ruby
-cache: bundler
+# only run CI-builds on master branch
+branches:
+  only:
+  - master
+
 rvm:
 - 2.4.2
 
-install:
-  # Install Jekyll and dependencies
-  - bundle install
+# set execution permission on our build script
+before_script:
+ - chmod +x ./script/cibuild
 
-script: bundle exec rake site:deploy --quiet #--trace
+# path to our build script. 
+# Travis will run `bundle install` by default before running our script
+script: ./script/cibuild
+exclude: [vendor]
+sudo: false
 
-# Generate your secure token with the travis gem:
-# get Github token from your Travis CI profile page
-# gem install travis
-# GH_TOKEN from https://github.com/settings/tokens
-# travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
-env:
-  global:
-    secure: "mampTskz7M2VFZuRlDvnHvqO/MuzAGsB7Num1EDK1qi4mb2zQaQPkMD+ldUeMYJM+9asUh8FmZlQLifobvQk/gDkU9k7EZxChHl1tjHMLMP60TskGvSN1qPJlafjgUsS4/J4NJKQagqxEFW6OxkZlCWhvPHDsl3buz/MWeBBVZkdcxM2EMkd1N5FdHqXpy7hUgNSbY8HykJiPyI3I3sK669Wpxk/tpLFJpnDEpAaAaRk8NK9FPFbfMZcNYWLZyfQn5Fz4/XuroVLL0/uSSeZk+FaZZ+rVGgJMzGBFp3qdJOdLII/5ppuEuja6wTyyB4jX6COWtbQX624/2AWSQgfagXLMhZBBm3F6DNjBTcrQiVAHwjrJOqFS5kRLqRnqbemv5qIAN1l3FB8g+F3+9vLb6YYbFpT1L1Ydlu6nI4y80w1XVkWaZHcNZuV/c6oNP0kNh61YNrdvpRcAJQ2a8WTBbg/FPhEzgOfrwQRHmck/BkJdHGgGGJFCZclLMiZUMiq3z8wd0nH0640WRFwMFdPeh++cb+8EfzqYMCcEJKMADcX8ktT3TYSZ34jogkLcMNud2rd6nA4zGWGnHxRxSQ6GfVdlTRBoQSiuPgXWtPpLPD7GHB8+htTShStHr/CbygTeyDC/TxlIMFIvmc2CCHyZJE/8Z7lHWAjSha5p21sc54="
-branches:
-  only:
-    - gh-pages
+# 9399118abcbad6cd99788a21afd9139f2df9c148
