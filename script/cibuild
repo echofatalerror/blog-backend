@@ -13,16 +13,15 @@ set -e
 rm -rf _site
 mkdir _site
 
-# clone remote repo to "_site"
-git clone https://${GH_TOKEN}@github.com/echofatalerror/echofatalerror.github.io.git --branch gh-pages _site
-
 # build with Jekyll into "_site"
 bundle exec jekyll build
 
 # push
 cd _site
+git init
 git config user.email "kartherrupnik@gmail.com"
-git config user.name "krthr"
+git config user.name "echofatalerror"
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force origin gh-pages
+git remote add origin https://github.com/echofatalerror/echofatalerror.github.io.git
+git push --force origin master
