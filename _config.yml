@@ -70,13 +70,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: myJekyll
-repo: jasper2
+username: echofatalerror
+repo: echofatalerror.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
-production_url:  https://myJekyll.github.io/jasper2/
-source_url:  https://github.com/myJekyll/jasper2/
+relative_source: ../
+destination: ../
+production_url:  https://echofatalerror.github.io/
+source_url:  https://github.com/echofatalerror/
 
 exclude:
   - README.md
