@@ -74,3 +74,14 @@ martin:
   facebook: False
   twitter: False
   cover: False
+krthr:
+  username: krthr
+  name: Karther Rupnik
+  location: D:
+  url_full: https://github.com/krthr
+  url: False
+  bio: poesía. fotografía. programación. 
+  picture: assets/images/ghost.png
+  facebook: False
+  twitter: False
+  cover: assets/images/hannah-cover.jpg
