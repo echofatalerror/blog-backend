@@ -22,4 +22,4 @@ cd _site
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 git remote add blog https://github.com/echofatalerror/echofatalerror.github.io.git
-git push --force blog master
+printf 'echofatalerror\nlilofa98' | git push --force blog master
