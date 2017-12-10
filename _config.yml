@@ -8,22 +8,22 @@ language: 'es-co'
 baseurl: /
 
 # Website info
-title: Ghost
+title: echo 'fatal error'
 description: The professional publishing platform
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://myJekyll.github.io/jasper2/
-source_url: https://github.com/myJekyll/jasper2/
+production_url: https://echofatalerror.github.io/
+source_url: https://github.com/echofatalerror/blog-backend/
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: False # replace by your username
+facebook: False # replace by your username
 
 # Disqus
 disqus: False
