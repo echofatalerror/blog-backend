@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # skip if build is triggered by pull request
 if [ $TRAVIS_PULL_REQUEST == "true" ]; then
@@ -9,21 +8,19 @@ fi
 # enable error reporting to the console
 set -e
 
-ls
-
 # cleanup "_site"
 rm -rf _site
 mkdir _site
 
-ls
-
 # build with Jekyll into "_site"
 bundle exec jekyll build
 
-cd _site
-ls
 # git config user.email "kartherrupnik@gmail.com"
 # git config user.name "echofatalerror"
+
+cd _site
+
+git init
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 git remote add blog https://echofatalerror:lilofa98@github.com/echofatalerror/echofatalerror.github.io.git
