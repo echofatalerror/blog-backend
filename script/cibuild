@@ -23,6 +23,6 @@ cd _site
 git init
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote add blog https://echofatalerror:lilofa98@github.com/echofatalerror/echofatalerror.github.io.git
+git remote add blog https://$GH_USER:$GH_PASS@github.com/echofatalerror/echofatalerror.github.io.git
 
 git push --force blog master
