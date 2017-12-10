@@ -21,6 +21,6 @@ cd _site
 # git config user.name "echofatalerror"
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote add blog https://echofatalerror:lilofa98github.com/echofatalerror/echofatalerror.github.io.git
+git remote add blog https://echofatalerror:lilofa98@github.com/echofatalerror/echofatalerror.github.io.git
 
 git push --force blog master
