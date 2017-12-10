@@ -17,6 +17,7 @@ mkdir _site
 bundle exec jekyll build
 
 cd _site
+ls
 # git config user.email "kartherrupnik@gmail.com"
 # git config user.name "echofatalerror"
 git add .
