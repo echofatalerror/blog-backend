@@ -9,9 +9,13 @@ fi
 # enable error reporting to the console
 set -e
 
+ls
+
 # cleanup "_site"
 rm -rf _site
 mkdir _site
+
+ls
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
