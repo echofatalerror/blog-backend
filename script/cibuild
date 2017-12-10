@@ -23,5 +23,5 @@ git config user.email "kartherrupnik@gmail.com"
 git config user.name "echofatalerror"
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote add origin https://echofatalerror:a136e2d9590ab29b3c23dfc0c68ce9fe67c7c9f7@github.com/echofatalerror/echofatalerror.github.io.git
+git remote add origin https://echofatalerror:3e4dc346983ce5534f57553fe3fbb5a6c2fa1c3b@github.com/echofatalerror/echofatalerror.github.io.git
 git push --force origin master
