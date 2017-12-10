@@ -11,10 +11,6 @@ set -e
 
 # cleanup "_site"
 rm -rf _site
-mkdir _site
-
-# build with Jekyll into "_site"
-bundle exec jekyll build
 
 # push
 
