@@ -14,3 +14,7 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+maratones:
+  name: maratones
+  descripcion: Algunos problemas de maratones de programación, UVa, Codeforces, URI y otros más.
+  cover: assets/image/speeches.jpg
