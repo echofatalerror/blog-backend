@@ -1,0 +1,13 @@
+---
+layout: post
+current: post
+cover: assets/images/bus.jpg
+navigation: True
+title: Gettysburg Address
+date: 2017-12-10 10:00:00
+tags: maratones, speeches
+class: post-template
+subclass: 'post'
+author: krthr
+categories: krthr
+---
