@@ -23,4 +23,4 @@ git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 
 # git remote add blog https://$GH_USER:$GH_PASS@github.com/echofatalerror/echofatalerror.github.io.git
 
-git push --force blog master
+git push --force
