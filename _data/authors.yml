@@ -19,3 +19,14 @@ krthr:
   facebook: False
   twitter: False
   cover: assets/images/authors/krthr-cover.png
+LinkRs:
+  username: LinkRs
+  name: LinkRs
+  location: False
+  url_full: https://github.com/C9-LinkRs
+  url: False
+  bio: False
+  picture: assets/images/authors/LinkRs.jpg
+  facebook: False
+  twitter: False
+  cover: assets/images/authors/LinkRs-cover.jpeg

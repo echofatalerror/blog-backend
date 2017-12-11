@@ -17,4 +17,9 @@ MVC es un patrón de desarrollo que seguramente conoces. La idea detrás de él 
 - **Vistas:** 
 - **Controladores:** Código encargado de la *lógica* de la aplicación.
 
+## Proyecto
 
+## Estructura del proyecto
+
+
+## Conclusión
