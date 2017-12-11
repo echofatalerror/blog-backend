@@ -11,6 +11,7 @@ layout: null
     {% for post in site.posts %}
       {% unless post.link %}
       <item>
+        <image>{{ site.baseurl }}{{ page.cover }}</image>
         <title>{{ post.title | xml_escape }}</title>
         {% if post.excerpt %}
           <description>{{ post.excerpt | xml_escape }}</description>

@@ -30,4 +30,4 @@ La cosa va así, crearemos tres paquetes en el proyecto:
 
 - **Controllers:** Todo el código que realizará la lógica de nuestro programa. Prácticamente, el código que lleva a cabo todo lo importante de nuestro programa.
 - **Models:** Los modelos son la abstracción. Ejemplo: En un programa para una droguería los modelos serían, por decir: `Cliente.java`, `Producto.java`, `Factura.java`, etc.
-- **Views:** Y las vistas, como se puede deducir, es lo que el usuario verá (los formularios, etc.)
+- **Views:** Y las vistas, como se puede deducir, es lo que el usuario verá (los formularios, ventanas, etc.)
