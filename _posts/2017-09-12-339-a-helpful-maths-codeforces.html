@@ -13,6 +13,38 @@ categories: krthr ghost
 ---
 
 <h2>Problema</h2>
+<p>Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.</p>
+<p>The teacher has written down the sum of multiple numbers. Pupils should calculate the sum. To make the calculation easier, the sum only contains numbers 1, 2 and 3. Still, that isn’t enough for Xenia. She is only beginning to count, so she can calculate a sum only if the summands follow in non-decreasing order. For example, she can’t calculate sum 1+3+2+1 but she can calculate sums 1+1+2 and 3+3.</p>
+<p>You’ve got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.</p>
+
+<h3>Input</h3>
+<p>The first line contains a non-empty string s — the sum Xenia needs to count. String s contains no spaces. It only contains digits and characters “+“. Besides, string s is a correct sum of numbers 1, 2 and 3. String s is at most 100 characters long.</p>
+<h3>Output</h3>
+<p>Print the new sum that Xenia can count.</p>
+
+<h3>Examples</h3>
+
+input:
+<pre><code>
+3+2+1
+</code></pre>
+output:
+<pre><code>
+1+2+3
+</code></pre>
+
+input:
+
+1+1+3+1+3
+output:
+
+1+1+1+3+3
+input:
+
+2
+output:
+
+2
 
 <h2>Solución</h2>
 <p>La solución a este problema es sencilla. Almacenaremos los números que nos dan en el input en un vector. Luego ordenaremos
