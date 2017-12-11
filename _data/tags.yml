@@ -6,3 +6,5 @@ java:
   name: java
 c++:
   name: c++
+tutorial:
+  name: tutorial
