@@ -18,3 +18,9 @@ maratones:
   name: maratones
   description: Algunos problemas de maratones de programación, UVa, Codeforces, URI y otros más.
   cover: assets/images/speeches.jpg
+java:
+  name: java
+c++:
+  name: c++
+c#:
+  name: c#
