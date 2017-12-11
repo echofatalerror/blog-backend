@@ -26,8 +26,8 @@ twitter: False # replace by your username
 facebook: False # replace by your username
 
 # Disqus
-disqus: False
-disqus_shortname: myjekyll # replace with your disqus username
+disqus: True
+disqus_shortname: echofatalerror # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-111071664-1 # replace with your GA tracking identifier

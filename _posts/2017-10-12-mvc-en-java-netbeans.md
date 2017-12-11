@@ -22,7 +22,7 @@ Para programar en Java siempre he usado NetBeans. Es un IDE estable, diseñado e
 ## MVC
 > Si no sabes acerca del Modelo-Vista-Controlador te invito a leer sobre esto. De todos modos, no es necesario saber mucho sobre el tema para entender el proyecto que aquí desarrollaré.
 
-<p><img src="https://basicsofwebdevelopment.files.wordpress.com/2015/01/mvc_role_diagram.png#full"></img></p>
+![](https://basicsofwebdevelopment.files.wordpress.com/2015/01/mvc_role_diagram.png)
 
 Básicamente, la idea del MVC es separar el código de las vistas de toda la lógica de nuestra aplicación. Así mismo, separamos los módulos que sirven los datos que guardamos. ¿La has pillado? Calma, al principio puede parecer confuso - pero cuando lo entiendes será glorioso.
 
