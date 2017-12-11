@@ -12,17 +12,15 @@ set -e
 rm -rf _site
 mkdir _site
 
-# build with Jekyll into "_site"
-bundle exec jekyll build
+git clone https://$GH_USER:$GH_PASS@github.com/echofatalerror/echofatalerror.github.io.git _site
 
-# git config user.email "kartherrupnik@gmail.com"
-# git config user.name "echofatalerror"
+bundle exec jekyll build
 
 cd _site
 
-git init
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote add blog https://$GH_USER:$GH_PASS@github.com/echofatalerror/echofatalerror.github.io.git
+
+# git remote add blog https://$GH_USER:$GH_PASS@github.com/echofatalerror/echofatalerror.github.io.git
 
 git push --force blog master
