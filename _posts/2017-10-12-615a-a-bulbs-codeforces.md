@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/advanced.jpg
+cover:  assets/images/posts/bulbs.jpg
 navigation: True
 title: 615A - A. Bulbs [Codeforces]
 date: 2017-10-12 07:00:00
