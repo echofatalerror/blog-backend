@@ -9,7 +9,7 @@ baseurl: /
 
 # Website info
 title: echo 'fatal error'
-description: The professional publishing platform
+description: programación. 
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
@@ -19,7 +19,7 @@ source_url: https://github.com/echofatalerror/blog-backend/
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: False # replace by your username
