@@ -22,5 +22,3 @@ java:
   name: java
 c++:
   name: c++
-c#:
-  name: c#
