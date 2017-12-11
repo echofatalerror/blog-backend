@@ -9,7 +9,7 @@ tags: tutorial java
 class: post-template 
 subclass: 'post tag-maratones' 
 author: krthr 
-categories: krthr ghost
+categories: krthr
 ---
 
 MVC es un patrón de desarrollo que seguramente conoces. La idea detrás de él es dividir el código en tres elementos importantes:
