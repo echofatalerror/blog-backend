@@ -4,7 +4,7 @@ layout: post
 current: post
 cover: assets/images/posts/c++.jpg
 navigation: true
-date: 2017-10-12T07:00:00.000Z
+date: {}
 tags: maratones c++
 class: post-template
 subclass: post
@@ -19,13 +19,13 @@ La librería estándar tiene tres categorías principales:
 - **Algoritmos.**
 - **Colecciones** 
 
-# Algoritmos <algorithm>
+# Algoritmos \<algorithm\>
 Los algoritmos que se encuentran en esta categoría trabajan con cualquier container, un vecto, `array`, lista enlazada, pila, cola o -incluso- cadenas de caracteres. Así mismo, no importa qué contiene ese container.
 
 Éstos algoritmos usualmente trabajan con **iteradores**. Puedes pensar en los iteradores como punteros, aunque hay mucho más.
 
 ### Cabeceras que deberías conocer
-- <algorithm>
+- \<algorithm>
 - <vector><array><list><map><stack><queue>
 - <string>
 - <iterador>
@@ -35,6 +35,3 @@ Los algoritmos que se encuentran en esta categoría trabajan con cualquier conta
 <pre><code class="c++">
 
 </code></pre>
-
-
-
