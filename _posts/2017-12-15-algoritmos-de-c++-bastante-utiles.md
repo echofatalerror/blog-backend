@@ -4,7 +4,7 @@ layout: post
 current: post
 cover: assets/images/posts/c++.jpg
 navigation: true
-date: {}
+date: 2017-10-12T07:00:00.000Z
 tags: maratones c++
 class: post-template
 subclass: post
@@ -29,6 +29,8 @@ Los algoritmos que se encuentran en esta categoría trabajan con cualquier conta
 - <vector><array><list><map><stack><queue>
 - <string>
 - <iterador>
+- <numeric>
+- <cmath>
 
 <pre><code class="c++">
 
