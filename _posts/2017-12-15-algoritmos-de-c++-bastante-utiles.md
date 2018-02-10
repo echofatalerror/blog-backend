@@ -4,13 +4,13 @@ layout: post
 current: post
 cover: assets/images/posts/c++.jpg
 navigation: true
-date: {}
-tags: maratones c++
+date: 2018-02-10T07:00:00.000Z
+tags: c++ maratones
 class: post-template
 subclass: post
 author: krthr
 categories: krthr
-title: Algoritmos de C++ bastante útiles
+title: 2018-02-10-algoritmos-de-c++-bastante-utiles.md
 ---
 Muchos de nosotros no sabemos el tiempo y el esfuerzo que podemos ahorrar con algunos algoritmos la librería `algorithm` de la Librería Estándar C++. 
 
