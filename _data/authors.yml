@@ -30,3 +30,9 @@ linkrs:
   facebook: False
   twitter: False
   cover: assets/images/authors/LinkRs-cover.jpg
+niten96:
+  username: niten96
+  name: Niten96
+  bio: Everything is connected
+  cover: False
+  picture: assets/images/authors/w.jpg
