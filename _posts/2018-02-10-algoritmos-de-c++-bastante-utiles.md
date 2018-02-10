@@ -10,7 +10,7 @@ class: post-template
 subclass: post
 author: krthr
 categories: krthr
-title: 2018-02-10-algoritmos-de-c++-bastante-utiles.md
+title: Algoritmos de C++ bastante útiles
 ---
 Muchos de nosotros no sabemos el tiempo y el esfuerzo que podemos ahorrar con algunos algoritmos la librería `algorithm` de la Librería Estándar C++. 
 
